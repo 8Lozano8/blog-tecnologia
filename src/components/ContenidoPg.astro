@@ -1,0 +1,94 @@
+---
+import Pc from '../../images/pc-img.jpg'
+import Post01 from '../../images/post-1.png'
+import Post02 from '../../images/post-2.png'
+import Post03 from '../../images/post-3.png'
+import '../styles/ContenidoPg.css'
+---
+
+<main class="blogs-main">
+    <section class="news container">
+        <div class="news-content">
+            <h3>Última noticia</h3>
+            <img src={Pc.src} alt="img de blog" />
+            <div class="news-info">
+                <h2>Titulos de Blogspost</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Fugiat iste quas saepe voluptas, quaerat odio reprehenderit,
+                    labore ullam illo deserunt corporis maxime accusamus nulla
+                    minus nostrum adipisci, vero libero. Est.
+                </p>
+                <a class="blogs-btn" href="/noticias">Leer más</a>
+            </div>
+            
+        </div>
+        <div class="container">
+            <a class="boton-todas-noticias" href="/noticias">Ver todas las noticias→</a>
+        </div>
+    </section>
+    <section class="posts container">
+        <h3>Últimas publicaciones</h3>
+        
+        <div class="row">
+            <div class="posts-blog col-xl-3 col-lg-3 col-md-6 col-sm-12 py-5">
+                <div class="contenedor-imagen">
+                    <img src={Post01.src} alt="" />
+                </div>
+                
+                <h4>Titulo del Blogspost</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    ducimus enim quos, repellat autem quas non quo, fugit blanditiis
+                    dolore facilis tenetur natus ex temporibus praesentium atque rem
+                    asperiores perspiciatis?
+                </p>
+                <a class="blogs-btn" href="/publicaciones">Leer más</a>
+            </div>
+            <div class="posts-blog col-xl-3 col-lg-3 col-md-6 col-sm-12 py-5">
+                <div class="contenedor-imagen">
+                    <img src={Post02.src} alt="" />
+                </div>
+                <h4>Titulo del Blogspost</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    ducimus enim quos, repellat autem quas non quo, fugit blanditiis
+                    dolore facilis tenetur natus ex temporibus praesentium atque rem
+                    asperiores perspiciatis?
+                </p>
+                <a class="blogs-btn" href="/publicaciones">Leer más</a>
+            </div>
+            <div class="posts-blog col-xl-3 col-lg-3 col-md-6 col-sm-12 py-5">
+                <div class="contenedor-imagen">
+                    <img src={Post03.src} alt="" />
+                </div>
+                <h4>Titulo del Blogspost</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    ducimus enim quos, repellat autem quas non quo, fugit blanditiis
+                    dolore facilis tenetur natus ex temporibus praesentium atque rem
+                    asperiores perspiciatis?
+                </p>
+                <a class="blogs-btn" href="/publicaciones">Leer más</a>
+            </div>
+            <div class="posts-blog col-xl-3 col-lg-3 col-md-6 col-sm-12 py-5">
+                <div class="contenedor-imagen">
+                    <img src={Post01.src} alt="" />
+                </div>
+                <h4>Titulo del Blogspost</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    ducimus enim quos, repellat autem quas non quo, fugit blanditiis
+                    dolore facilis tenetur natus ex temporibus praesentium atque rem
+                    asperiores perspiciatis?
+                </p>
+                <a class="blogs-btn" href="/publicaciones">Leer más</a>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <a href="/publicaciones" class="boton-todas-publicaciones">Ver todas las publicaciones→</a>
+        </div>
+        
+    </section>
+</main>

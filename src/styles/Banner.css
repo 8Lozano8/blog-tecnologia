@@ -1,0 +1,40 @@
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100vh;
+    background-image: url("../../images/cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.main-container__text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+.main-container__link {
+    background-color: #e6162e;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    height: 45px;
+}
+
+.main-container__link:hover {
+    background-color: #eb253c;
+}
